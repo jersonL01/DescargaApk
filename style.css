@@ -1,0 +1,48 @@
+body {
+    background-image: url('img/puente-alto.webp'); /* Imagen de fondo */
+    background-size: cover;
+
+    text-align: center; /* Texto centrado */
+    font-family: Arial, sans-serif; /* Fuente */
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+h1 {
+    color:#333; /* Color del texto del encabezado */
+    margin-top: 0;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Color de fondo del enlace */
+    color: white; /* Color del texto del enlace */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+a:hover {
+    background-color: #0056b3; /* Color de fondo del enlace al pasar el ratón */
+}
+
+.txt {
+    color: white;
+    transition: transform 1s ease-in-out, color 1s ease-in-out;
+}
+
+.txt:hover {
+    color: white;
+    transform: rotate(360deg);
+}
